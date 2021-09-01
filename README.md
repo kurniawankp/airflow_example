@@ -87,5 +87,5 @@ follow GCP documentation :
         * AIRFLOW_CONN_GCP_CONN
 * enable the dags
 * trigger the dag by clicking the play button in action column
-![images](https://octodex.github.com/images/yaktocat.png)
+![images](https://raw.githubusercontent.com/kurniawankp/airflow_example/main/images/airflow%20home%20page.png)
 
