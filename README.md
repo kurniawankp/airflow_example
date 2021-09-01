@@ -23,6 +23,8 @@ To use this code, you can use this following instruction
 or you can follow instruction from 
 apache airflow documentation on https://airflow.apache.org/
 
+I recommend to use virtual environment
+
 * install apache airflow
 
     ```bash
@@ -87,7 +89,7 @@ follow GCP documentation :
 
 ## Usage
 
-* install all package
+* install all package in same environment with installed airflow environment
 
     ```bash
     pip install -r requirements.txt
