@@ -1,0 +1,19 @@
+{   
+    "namespace": "sqlite_league.avro",
+    "type": "record",
+    "name": "League",
+    "fields": [
+        {
+            "name": "id",
+            "type": ["int","null"]
+        },
+        {
+            "name": "country_id",
+            "type": ["int","null"]
+        },
+        {
+            "name": "name",
+            "type": ["string","null"]
+        }
+    ]
+}

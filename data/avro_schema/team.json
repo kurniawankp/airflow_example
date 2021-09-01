@@ -1,0 +1,28 @@
+{   
+    "namespace": "sqlite_team.avro",
+    "type": "record",
+    "name": "Team",
+    "fields": [
+        {
+            "name": "id",
+            "type": ["int","null"]
+        },
+        {
+            "name": "team_api_id",
+            "type": ["int","null"]
+        },
+        {
+            "name": "team_fifa_api_id",
+            "type": ["int","null"]
+        },
+        {
+            "name": "team_long_name",
+            "type": ["string","null"]
+        },
+        
+        {
+            "name": "team_short_name",
+            "type": ["string","null"]
+        }
+    ]
+}

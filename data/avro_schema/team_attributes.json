@@ -1,0 +1,183 @@
+{
+    "namespace": "sqlite_team_attributes.avro",
+    "type": "record",
+    "name": "team_attributes",
+    "fields": [
+        {
+            "name": "id",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "team_fifa_api_id",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "team_api_id",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "date",
+            "type": [
+                "int",
+                "null"
+            ],
+            "logicalType": "date"
+        },
+        {
+            "name": "buildUpPlaySpeed",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "buildUpPlaySpeedClass",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "buildUpPlayDribbling",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "buildUpPlayDribblingClass",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "buildUpPlayPassing",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "buildUpPlayPassingClass",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "buildUpPlayPositioningClass",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "chanceCreationPassing",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "chanceCreationPassingClass",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "chanceCreationCrossing",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "chanceCreationCrossingClass",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "chanceCreationShooting",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "chanceCreationShootingClass",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "chanceCreationPositioningClass",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "defencePressure",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "defencePressureClass",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "defenceAggression",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "defenceAggressionClass",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "defenceTeamWidth",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "defenceTeamWidthClass",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "defenceDefenderLineClass",
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    ]
+}

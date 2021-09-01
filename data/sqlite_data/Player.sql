@@ -1,0 +1,1 @@
+select id,player_api_id,player_name,player_fifa_api_id,cast(strftime('%s', birthday) as integer) as birthday,height,weight from Player

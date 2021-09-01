@@ -1,0 +1,302 @@
+{
+    "namespace": "sqlite_player_attributes.avro",
+    "type": "record",
+    "name": "player_attributes",
+    "fields": [
+        {
+            "name": "id",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "player_fifa_api_id",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "player_api_id",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "date",
+            "type": [
+                "int",
+                "null"
+            ],
+            "logicalType": "date"
+        },
+        {
+            "name": "overall_rating",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "potential",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "preferred_foot",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "attacking_work_rate",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "defensive_work_rate",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "crossing",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "finishing",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "heading_accuracy",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "short_passing",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "volleys",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "dribbling",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "curve",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "free_kick_accuracy",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "long_passing",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "ball_control",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "acceleration",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "sprint_speed",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "agility",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "reactions",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "balance",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "shot_power",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "jumping",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "stamina",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "strength",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "long_shots",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "aggression",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "interceptions",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "positioning",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "vision",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "penalties",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "marking",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "standing_tackle",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "sliding_tackle",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "gk_diving",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "gk_handling",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "gk_kicking",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "gk_positioning",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "gk_reflexes",
+            "type": [
+                "int",
+                "null"
+            ]
+        }
+    ]
+}

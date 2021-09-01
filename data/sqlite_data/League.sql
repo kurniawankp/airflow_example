@@ -1,0 +1,1 @@
+select id,country_id,name from League

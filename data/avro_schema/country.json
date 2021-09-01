@@ -1,0 +1,15 @@
+{   
+    "namespace": "sqlite_country.avro",
+    "type": "record",
+    "name": "country",
+    "fields": [
+        {
+            "name": "id",
+            "type": ["int","null"]
+        },
+        {
+            "name": "name",
+            "type": ["string","null"]
+        }
+    ]
+}

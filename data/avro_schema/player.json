@@ -1,0 +1,36 @@
+{   
+    "namespace": "sqlite_player.avro",
+    "type": "record",
+    "name": "Player",
+    "fields": [
+        {
+            "name": "id",
+            "type": ["int","null"]
+        },
+        {
+            "name": "player_api_id",
+            "type": ["int","null"]
+        },
+        {
+            "name": "player_name",
+            "type": ["string","null"]
+        },
+        {
+            "name": "player_fifa_api_id",
+            "type": ["int","null"]
+        },
+        {
+            "name": "birthday",
+            "type": ["int","null"],
+            "logicalType": "date"
+        },
+        {
+            "name": "height",
+            "type": ["float","null"]
+        },
+        {
+            "name": "weight",
+            "type": ["float","null"]
+        }
+    ]
+}

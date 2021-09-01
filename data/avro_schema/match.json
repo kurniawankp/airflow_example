@@ -1,0 +1,813 @@
+{
+    "namespace": "sqlite_match.avro",
+    "type": "record",
+    "name": "match",
+    "fields": [
+        {
+            "name": "id",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "country_id",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "league_id",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "season",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "stage",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "date",
+            "type": [
+                "int",
+                "null"
+            ],
+            "logicalType": "date" 
+        },
+        {
+            "name": "match_api_id",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "home_team_api_id",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "away_team_api_id",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "home_team_goal",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "away_team_goal",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "home_player_X1",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "home_player_X2",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "home_player_X3",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "home_player_X4",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "home_player_X5",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "home_player_X6",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "home_player_X7",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "home_player_X8",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "home_player_X9",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "home_player_X10",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "home_player_X11",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "away_player_X1",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "away_player_X2",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "away_player_X3",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "away_player_X4",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "away_player_X5",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "away_player_X6",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "away_player_X7",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "away_player_X8",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "away_player_X9",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "away_player_X10",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "away_player_X11",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "home_player_Y1",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "home_player_Y2",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "home_player_Y3",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "home_player_Y4",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "home_player_Y5",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "home_player_Y6",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "home_player_Y7",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "home_player_Y8",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "home_player_Y9",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "home_player_Y10",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "home_player_Y11",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "away_player_Y1",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "away_player_Y2",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "away_player_Y3",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "away_player_Y4",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "away_player_Y5",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "away_player_Y6",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "away_player_Y7",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "away_player_Y8",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "away_player_Y9",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "away_player_Y10",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "away_player_Y11",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "home_player_1",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "home_player_2",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "home_player_3",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "home_player_4",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "home_player_5",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "home_player_6",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "home_player_7",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "home_player_8",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "home_player_9",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "home_player_10",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "home_player_11",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "away_player_1",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "away_player_2",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "away_player_3",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "away_player_4",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "away_player_5",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "away_player_6",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "away_player_7",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "away_player_8",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "away_player_9",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "away_player_10",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "away_player_11",
+            "type": [
+                "int",
+                "null"
+            ]
+        },
+        {
+            "name": "goal",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "shoton",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "shotoff",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "foulcommit",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "card",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "cross",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "corner",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "possession",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        {
+            "name": "B365H",
+            "type": [
+                "float",
+                "null"
+            ]
+        },
+        {
+            "name": "B365D",
+            "type": [
+                "float",
+                "null"
+            ]
+        },
+        {
+            "name": "B365A",
+            "type": [
+                "float",
+                "null"
+            ]
+        },
+        {
+            "name": "BWH",
+            "type": [
+                "float",
+                "null"
+            ]
+        },
+        {
+            "name": "BWD",
+            "type": [
+                "float",
+                "null"
+            ]
+        },
+        {
+            "name": "BWA",
+            "type": [
+                "float",
+                "null"
+            ]
+        },
+        {
+            "name": "IWH",
+            "type": [
+                "float",
+                "null"
+            ]
+        },
+        {
+            "name": "IWD",
+            "type": [
+                "float",
+                "null"
+            ]
+        },
+        {
+            "name": "IWA",
+            "type": [
+                "float",
+                "null"
+            ]
+        },
+        {
+            "name": "LBH",
+            "type": [
+                "float",
+                "null"
+            ]
+        },
+        {
+            "name": "LBD",
+            "type": [
+                "float",
+                "null"
+            ]
+        },
+        {
+            "name": "LBA",
+            "type": [
+                "float",
+                "null"
+            ]
+        },
+        {
+            "name": "PSH",
+            "type": [
+                "float",
+                "null"
+            ]
+        },
+        {
+            "name": "PSD",
+            "type": [
+                "float",
+                "null"
+            ]
+        },
+        {
+            "name": "PSA",
+            "type": [
+                "float",
+                "null"
+            ]
+        },
+        {
+            "name": "WHH",
+            "type": [
+                "float",
+                "null"
+            ]
+        },
+        {
+            "name": "WHD",
+            "type": [
+                "float",
+                "null"
+            ]
+        },
+        {
+            "name": "WHA",
+            "type": [
+                "float",
+                "null"
+            ]
+        },
+        {
+            "name": "SJH",
+            "type": [
+                "float",
+                "null"
+            ]
+        },
+        {
+            "name": "SJD",
+            "type": [
+                "float",
+                "null"
+            ]
+        },
+        {
+            "name": "SJA",
+            "type": [
+                "float",
+                "null"
+            ]
+        },
+        {
+            "name": "VCH",
+            "type": [
+                "float",
+                "null"
+            ]
+        },
+        {
+            "name": "VCD",
+            "type": [
+                "float",
+                "null"
+            ]
+        },
+        {
+            "name": "VCA",
+            "type": [
+                "float",
+                "null"
+            ]
+        },
+        {
+            "name": "GBH",
+            "type": [
+                "float",
+                "null"
+            ]
+        },
+        {
+            "name": "GBD",
+            "type": [
+                "float",
+                "null"
+            ]
+        },
+        {
+            "name": "GBA",
+            "type": [
+                "float",
+                "null"
+            ]
+        },
+        {
+            "name": "BSH",
+            "type": [
+                "float",
+                "null"
+            ]
+        },
+        {
+            "name": "BSD",
+            "type": [
+                "float",
+                "null"
+            ]
+        },
+        {
+            "name": "BSA",
+            "type": [
+                "float",
+                "null"
+            ]
+        }
+    ]
+}
