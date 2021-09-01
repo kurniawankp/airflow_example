@@ -1,3 +1,21 @@
+# Airflow Example
+
+Airflow example for building etl from sqlite datasource to data warehouse (bigquery). SQLite data will be converted into avro file, and then uploaded into google cloud storange and connected to bigquery.
+
+
+## Data Source
+
+SQLite with following tables :
+
+* Country
+* League
+* Match
+* Player
+* Player_Attributes
+* Team
+* Team_Attributes
+
+unzip data source data/sqlite_data/database.sqlite.zip
 
 ## Airflow Installation
 
