@@ -31,14 +31,12 @@ AIRFLOW_CONN_GCP_CONN = Variable.get("AIRFLOW_CONN_GCP_CONN")
 
 
 #file path
-data_source_path = os.path.join(HOME_PATH,'data')
-data_result_path = os.path.join(HOME_PATH,'data_result')
+data_path = os.path.join(HOME_PATH,'data')
 
-# avro_schema_folder = os.path.join(data_source_path,'avro_schema')
 
 tables = ["Country","Match","Player_Attributes","Team_Attributes","League","Player","Team"]
 # tables = ["Player_Attributes"]
-sqlite_db_path = os.path.join(data_source_path,*['sqlite_data','database.sqlite'])
+sqlite_db_path = os.path.join(data_path,*['sqlite_data','database.sqlite'])
 
 default_args = {
     'owner': 'kurniawan',
@@ -66,9 +64,9 @@ for table in tables:
     file_name = f"sqlite_{table}.avro"
     gcs_object_path = f"sqlite/{file_name}"
     
-    destination_path = os.path.join(data_result_path,file_name)
-    avro_schema_path = os.path.join(data_source_path,*['avro_schema',f"{table}.json"])
-    query_path = os.path.join(data_source_path,*['sqlite_data',f"{table}.sql"])
+    destination_path = os.path.join(data_path,*['result',file_name])
+    avro_schema_path = os.path.join(data_path,*['avro_schema',f"{table}.json"])
+    query_path = os.path.join(data_path,*['sqlite_data',f"{table}.sql"])
 
     convert_file = PythonOperator(
         task_id = f'convert_{table}_to_avro',
@@ -99,7 +97,9 @@ for table in tables:
         source_format='AVRO',
         create_disposition='CREATE_IF_NEEDED',
         write_disposition='WRITE_TRUNCATE',
-        src_fmt_configs={'useAvroLogicalTypes': True},
+        src_fmt_configs= {
+            'useAvroLogicalTypes': True
+        },
         dag=dag
     )
 
