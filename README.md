@@ -87,6 +87,11 @@ follow GCP documentation :
 
 ## Usage
 
+* install all package
+
+    ```bash
+    pip install -r requirements.txt
+    ```
 * create airflow connection for GCP
 
     * in airflow interface go to **Admin>Connections**
